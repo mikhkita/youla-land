@@ -66,7 +66,7 @@ input.error,textarea.error{
 }
 .b-block{
 	position: relative;
-	width: 1080px;
+	width: 1090px;
 	display: inline-block;
 
 }
@@ -94,15 +94,12 @@ input:-moz-placeholder {
 }
 	
 	.b-0 .logo{
-		float: left;
   		padding: 5px 5px 3px 10px;
 	}
 
 	.b-0 a{
-		float: right;
 		border: 3px solid #76d9dd;
 		margin-top: 21px;	
-		margin-right: -48px;	
 		font-family: "Roboto";
 		color: #4d4d4d;
 	}
@@ -129,49 +126,98 @@ input:-moz-placeholder {
 	}
 
 		.b-1 .image .heart{
+			background-image: url("../i/heart.png");
+			width: 421px;
+			height: 395px;
 			position: absolute;
 	  		left: 58px;
 	  		top: 202px;
 	  		z-index: 10;
 		}
 
-		.b-1 .image .blue-1{
+			.b-1 .image .heart p{
+				margin-top: 79px;
+	  			margin-left: 49px;
+				font-family: "Roboto";
+				font-weight: 300;
+				font-size: 17px;
+				text-align: center;
+				width: 330px;
+				color: #ffffff;
+				line-height: 31px;
+			}
+	
+			.b-1 .image .heart span{
+				font-weight: 500;
+			}
+
+
+		.b-1 .image .blue-left{
+			background-image: url('../i/b-1/blue-1.png');
+			width: 1212px;
+			height: 154px;
 			position: absolute;
   			left: -420px;
   			top: 416px;
   			z-index: 100;
 		}
 
-		.b-1 .image .yellow-1{
+			.b-1 .image .blue-left h3{
+				font-family: "Roboto";
+				font-size: 28px;
+				font-weight: 500;
+				color: #fff;
+				text-align: left;
+				margin-top: 60px;
+				margin-right: 280px;
+				width: 490px;
+			}
+
+		.b-1 .image .yellow-left{
+			background-image: url('../i/b-1/yellow-1.png');
 			position: absolute;
+			width: 437px;
+			height: 468px;
 			top: 289px;
   			left: -419px;
   			z-index: 150;
 		}
 
-		.b-1 .image .red-1{
+		.b-1 .image .red-left{
+			background-image: url('../i/b-1/red-1.png');
 			position: absolute;
+			width: 615px;
+			height: 356px;
 			z-index: 200;
 			top: 400px;
   			left: -419px;
 		}
 
-		.b-1 .image .yellow-2{
+		.b-1 .image .yellow-right{
+			background-image: url('../i/b-1/yellow-2.png');
 			position: absolute;
+			width: 996px;
+			height: 648px;
 			top: 5px;
   			left: 511px;
   			z-index: 20;
 		}
 
-		.b-1 .image .red-2{
+		.b-1 .image .red-right{
+			background-image: url('../i/b-1/red-2.png');
 			position: absolute;
+			width: 1192px;
+			height: 524px;
 			z-index: 30;
   			top: 228px;
   			left: 316px;
 		}
 
-		.b-1 .image .blue-2{
+		.b-1 .image .blue-right{
+			background-image: url('../i/b-1/blue-2.png');
 			position: absolute;
+			width: 1070px;
+			height: 313px;
   			left: 432px;
   			top: 200px;
   			z-index: 25;
@@ -196,34 +242,6 @@ input:-moz-placeholder {
 			color: #4b95d0;
 			text-align: right;
 		}
-
-		.b-1 .context p{
-			font-family: "Roboto";
-			font-weight: 300;
-			font-size: 17px;
-			text-align: center;
-			width: 330px;
-			color: #ffffff;
-			margin-left: 109px;
-			margin-top: 281px;
-			line-height: 31px;
-		}
-
-			.b-1 .context span{
-				font-weight: 500;
-			}
-
-		.b-1 .context h3{
-			font-family: "Roboto";
-			font-size: 28px;
-			font-weight: 500;
-			color: #fff;
-			text-align: left;
-			margin-top: 40px;
-			width: 490px;
-			margin-left: 20px;
-		}
-
 .b-2{
 	text-align: center;
 }
@@ -237,25 +255,6 @@ input:-moz-placeholder {
 		font-weight: 500;
 		color: #579cd3;
 		text-transform: uppercase;
-	}
-	.b-2 p{
-		width: 720px;
-		font-family: "Roboto";
-		margin-bottom: 85px;
-		font-weight: 300;
-		color: #1f1f1f;
-		font-size: 27px;
-		margin-left: 200px;
-		line-height: 52px;
-	}
-	.b-2 h3{
-		font-family: "Roboto";
-		font-weight: 700;
-		font-size: 30px;
-		font-style: italic;
-		text-transform: uppercase;
-		margin-bottom: 135px;
-		color: #494949;
 	}
 	
 @media screen and (max-width: 1250px){
