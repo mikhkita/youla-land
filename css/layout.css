@@ -1,35 +1,4 @@
 
-@font-face {
-	font-family: 'PFL';
-	src: url('../fonts/pdfintextcondpro-light-webfont.eot');
-    src: url('../fonts/pdfintextcondpro-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pdfintextcondpro-light-webfont.woff') format('woff'),
-         url('../fonts/pdfintextcondpro-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-	font-family: 'PFR';
-	src: url('../fonts/pfdintextcondpro-regular-webfont.eot');
-    src: url('../fonts/pfdintextcondpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pfdintextcondpro-regular-webfont.woff') format('woff'),
-         url('../fonts/pfdintextcondpro-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-	font-family: 'PFM';
-	src: url('../fonts/pfdintextcondpro-medium-webfont.eot');
-    src: url('../fonts/pfdintextcondpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pfdintextcondpro-medium-webfont.woff') format('woff'),
-         url('../fonts/pfdintextcondpro-medium-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 html,
 body {
 	position: relative;
@@ -37,7 +6,7 @@ body {
 body {
 	min-width: 1100px;
 	text-align: center;
-	font-family: 'PFL';
+	font-family: 'Roboto';
 	overflow-x: hidden;
 	color: #472275;
 }
@@ -230,7 +199,7 @@ input:-moz-placeholder {
 
 		.b-1 .context p{
 			font-family: "Roboto";
-			font-weight: 500;
+			font-weight: 300;
 			font-size: 17px;
 			text-align: center;
 			width: 330px;
@@ -240,9 +209,9 @@ input:-moz-placeholder {
 			line-height: 31px;
 		}
 
-		.b-1 .context b{
-			font-weight: 700;
-		}
+			.b-1 .context span{
+				font-weight: 500;
+			}
 
 		.b-1 .context h3{
 			font-family: "Roboto";
