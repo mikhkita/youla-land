@@ -196,9 +196,16 @@ input:-moz-placeholder {
 
 		.b-1 .image .red-2{
 			position: absolute;
-			z-index: 200;
-			top: 401px;
-  			left: -419px;
+			z-index: 30;
+  			top: 228px;
+  			left: 316px;
+		}
+
+		.b-1 .image .blue-2{
+			position: absolute;
+  			left: 432px;
+  			top: 200px;
+  			z-index: 25;
 		}
 
 .b-2{
