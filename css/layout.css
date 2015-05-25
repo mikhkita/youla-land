@@ -1,35 +1,4 @@
 
-@font-face {
-	font-family: 'PFL';
-	src: url('../fonts/pdfintextcondpro-light-webfont.eot');
-    src: url('../fonts/pdfintextcondpro-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pdfintextcondpro-light-webfont.woff') format('woff'),
-         url('../fonts/pdfintextcondpro-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-	font-family: 'PFR';
-	src: url('../fonts/pfdintextcondpro-regular-webfont.eot');
-    src: url('../fonts/pfdintextcondpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pfdintextcondpro-regular-webfont.woff') format('woff'),
-         url('../fonts/pfdintextcondpro-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-	font-family: 'PFM';
-	src: url('../fonts/pfdintextcondpro-medium-webfont.eot');
-    src: url('../fonts/pfdintextcondpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pfdintextcondpro-medium-webfont.woff') format('woff'),
-         url('../fonts/pfdintextcondpro-medium-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 html,
 body {
 	position: relative;
@@ -37,7 +6,7 @@ body {
 body {
 	min-width: 1100px;
 	text-align: center;
-	font-family: 'PFL';
+	font-family: 'Roboto';
 	overflow-x: hidden;
 	color: #472275;
 }
@@ -147,9 +116,9 @@ input:-moz-placeholder {
 
 .b-1{
 	position: relative;
+	background: url('../i/back-1.jpg') 50%;
 	background-size: cover;
 	min-height: 770px;
-	background: url('../i/back-1.jpg') 50%;
 }
 
 	.b-1 .image{
@@ -196,7 +165,7 @@ input:-moz-placeholder {
 			.b-1 .image .blue-left h3{
 				font-family: "Roboto";
 				font-size: 28px;
-				font-weight: 500;
+				font-weight: 300;
 				color: #fff;
 				text-align: left;
 				margin-top: 60px;
@@ -274,9 +243,37 @@ input:-moz-placeholder {
 			text-align: right;
 		}
 
-	.b-1 .reg-head
+	.b-1 .reg-head{
+		width: 385px;
+		margin-top: 45px;
+		text-align: center;
+		margin-right: 15px;
+		border-radius: 17px 17px 0px 0px;
+		background-color: #ec726b;
+	}
 
-		
+		.b-1 .reg-head h3{
+			font-family: "Roboto";
+			font-weight: 500;
+			font-style: italic;
+			font-size: 20px;
+			margin-top: 20px;
+			margin-bottom: 9px;
+			color: #fff;
+		}
+
+		.b-1 .reg-head p{
+			font-family: "Roboto";
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 22px;
+			text-align: center;
+			width: 335px;
+			margin-left: 30px;
+			margin-bottom: 19px;
+			color: #fff;
+		}
+	
 
 .b-2{
 	text-align: center;
