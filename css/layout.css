@@ -370,14 +370,48 @@ input:-moz-placeholder {
 }
 
 	.b-2 h2{
-		margin-top: 110px;
-		margin-bottom: 40px;
+		margin-top: 102px;
+		margin-bottom: 44px;
 		font-size: 44px;
 		font-style: italic;
 		font-weight: 500;
 		color: #579cd3;
 		text-transform: uppercase;
 	}
+
+	.b-2 p{
+		width: 715px;
+		line-height: 50px;
+		text-align: center;
+		color: #1f1f1f;
+		font-family: "roboto-light";
+		margin-left: 210px;
+		font-size: 27px;
+	}
+
+	.b-2 h3{
+		font-family: "roboto-bold";
+		text-transform: uppercase;
+		font-style: italic;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 64px;
+		margin-bottom: 135px;
+		color: #494949;
+	}
+
+.b-3{
+	background: url('../i/back-2.jpg') 50%;
+	background-size: cover;
+	min-height: 500px
+}
+
+	.b-3 img{
+		margin-top: 374px;
+		margin-right: 64px;
+	}
+
+
 	
 @media screen and (max-width: 1250px){
 	
