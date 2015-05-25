@@ -35,7 +35,7 @@ body {
 	position: relative;
 }
 body {
-	min-width: 1000px;
+	min-width: 1100px;
 	text-align: center;
 	font-family: 'PFL';
 	overflow-x: hidden;
@@ -97,8 +97,9 @@ input.error,textarea.error{
 }
 .b-block{
 	position: relative;
-	width: 1000px;
+	width: 1080px;
 	margin: 0px auto;
+
 }
 .b-absolute{
 	position: absolute;
@@ -119,8 +120,43 @@ input:-moz-placeholder {
 		
 	}
 .b-1{
-	
+	min-height: 860px;
 }
+
+
+.b-2{
+	text-align: center;
+}
+
+	.b-2 h2{
+		margin-top: 110px;
+		margin-bottom: 40px;
+		font-size: 44px;
+		font-family: "Roboto";
+		font-style: italic;
+		font-weight: 500;
+		color: #579cd3;
+		text-transform: uppercase;
+	}
+	.b-2 p{
+		width: 720px;
+		font-family: "Roboto";
+		margin-bottom: 85px;
+		font-weight: 300;
+		color: #1f1f1f;
+		font-size: 27px;
+		margin-left: 200px;
+		line-height: 52px;
+	}
+	.b-2 h3{
+		font-family: "Roboto";
+		font-weight: 700;
+		font-size: 30px;
+		font-style: italic;
+		text-transform: uppercase;
+		margin-bottom: 135px;
+		color: #494949;
+	}
 	
 @media screen and (max-width: 1250px){
 	
