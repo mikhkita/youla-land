@@ -98,7 +98,7 @@ input.error,textarea.error{
 .b-block{
 	position: relative;
 	width: 1080px;
-	margin: 0px auto;
+	display: inline-block;
 
 }
 .b-absolute{
@@ -119,10 +119,87 @@ input:-moz-placeholder {
 	.b-orange-butt:hover{
 		
 	}
+
+.b-0{
+	position: relative;
+}
+	
+	.b-0 .logo{
+		float: left;
+  		padding: 5px 5px 3px 10px;
+	}
+
+	.b-0 a{
+		float: right;
+		border: 3px solid #76d9dd;
+		margin-top: 21px;	
+		margin-right: -48px;	
+		font-family: "Roboto";
+		color: #4d4d4d;
+	}
+
+	.button{
+		text-transform: uppercase;
+		font-size: 18px;
+		font-weight: 500;
+		border-radius: 45px;
+		display: inline-block;		
+		padding: 12px 47px 11px 45px;
+
+	}
+
 .b-1{
-	min-height: 860px;
+	position: relative;
+	background-size: cover;
+	min-height: 770px;
+	background: url('../i/back-1.jpg') 50%;
 }
 
+	.b-1 .image{
+		position: relative;
+	}
+
+		.b-1 .image .heart{
+			position: absolute;
+	  		left: 58px;
+	  		top: 192px;
+	  		z-index: 10;
+		}
+
+		.b-1 .image .blue-1{
+			position: absolute;
+  			left: -420px;
+  			top: 406px;
+  			z-index: 100;
+		}
+
+		.b-1 .image .yellow-1{
+			position: absolute;
+			top: 289px;
+  			left: -419px;
+  			z-index: 150;
+		}
+
+		.b-1 .image .red-1{
+			position: absolute;
+			z-index: 200;
+			top: 401px;
+  			left: -419px;
+		}
+
+		.b-1 .image .yellow-2{
+			position: absolute;
+			top: 5px;
+  			left: 511px;
+  			z-index: 20;
+		}
+
+		.b-1 .image .red-2{
+			position: absolute;
+			z-index: 200;
+			top: 401px;
+  			left: -419px;
+		}
 
 .b-2{
 	text-align: center;
