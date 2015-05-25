@@ -116,9 +116,9 @@ input:-moz-placeholder {
 
 .b-1{
 	position: relative;
+	background: url('../i/back-1.jpg') 50%;
 	background-size: cover;
 	min-height: 770px;
-	background: url('../i/back-1.jpg') 50%;
 }
 
 	.b-1 .image{
@@ -165,7 +165,7 @@ input:-moz-placeholder {
 			.b-1 .image .blue-left h3{
 				font-family: "Roboto";
 				font-size: 28px;
-				font-weight: 500;
+				font-weight: 300;
 				color: #fff;
 				text-align: left;
 				margin-top: 60px;
@@ -242,6 +242,39 @@ input:-moz-placeholder {
 			color: #4b95d0;
 			text-align: right;
 		}
+
+	.b-1 .reg-head{
+		width: 385px;
+		margin-top: 45px;
+		text-align: center;
+		margin-right: 15px;
+		border-radius: 17px 17px 0px 0px;
+		background-color: #ec726b;
+	}
+
+		.b-1 .reg-head h3{
+			font-family: "Roboto";
+			font-weight: 500;
+			font-style: italic;
+			font-size: 20px;
+			margin-top: 20px;
+			margin-bottom: 9px;
+			color: #fff;
+		}
+
+		.b-1 .reg-head p{
+			font-family: "Roboto";
+			font-size: 15px;
+			font-weight: 300;
+			line-height: 22px;
+			text-align: center;
+			width: 335px;
+			margin-left: 30px;
+			margin-bottom: 19px;
+			color: #fff;
+		}
+	
+
 .b-2{
 	text-align: center;
 }
