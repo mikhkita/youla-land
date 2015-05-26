@@ -22,6 +22,7 @@
 	<script type="text/javascript" src="js/jssor.slider.js"></script>
 	<script type="text/javascript" src="js/TweenMax.min.js"></script>
 	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.js"></script>
 	<script type="text/javascript" src="js/carousel.lite.js"></script>
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
@@ -36,14 +37,41 @@
 <body>
 	<div class="b b-0">
 		<div class="b-block clearfix">
-			<img class="logo left" src="i/logo.png">	
-			<a class="button right" href="#">Регистрация</a>			
+			<a href="index.html">
+				<img class="logo left" src="i/logo.png">
+			</a>	
+			<a class="button right" href="#">
+				<svg width="234" height="53" class="b-gradient-butt" data-id="MyGradientt">
+				    <defs>
+				        <linearGradient id="MyGradientt" x1="0" y1="0" x2="100%" y2="0%">
+				        	<stop offset="0%" stop-color="rgba(255,116,111,1)" />
+				        	<stop offset="50%" class="b-center-point" stop-color="rgba(129,122,222,1)" />
+				        	<stop offset="100%" stop-color="rgba(0,218,221,1)" />
+				        </linearGradient>
+				        <linearGradient id="MyGradientt1" x1="0" y1="0" x2="100%" y2="0%">
+				        	<stop offset="0%" stop-color="rgba(255,116,111,0.1)" />
+				        	<stop offset="50%" class="b-center-point" stop-color="rgba(129,122,222,0.1)" />
+				        	<stop offset="100%" stop-color="rgba(0,218,221,0.1)" />
+				        </linearGradient>
+				        <linearGradient id="MyGradientt2" x1="0" y1="0" x2="100%" y2="0%">
+				        	<stop offset="0%" stop-color="rgba(255,116,111,0.2)" />
+				        	<stop offset="50%" class="b-center-point" stop-color="rgba(129,122,222,0.2)" />
+				        	<stop offset="100%" stop-color="rgba(0,218,221,0.2)" />
+				        </linearGradient>
+				    </defs>
+				  	<rect class="b-gradient-rect" x="2" y="2" rx="25" ry="25" width="230" stroke="url(#MyGradientt)" fill="none" height="49" stroke-width="3"/>
+				  	<text class="b-gradient-text" x="54" y="63%" fill="url(#MyGradientt)">Регистрация</text>
+				</svg>
+			</a>			
 		</div>
 	</div>
 	<div class="b b-1">
+		<div class="b-back" data-stellar-ratio="0.5">
+			
+		</div>
 		<div class="b-block">
 			<div class="image">
-				<div class="heart">
+				<div class="heart" data-stellar-ratio="0.85">
 					<p>
 						А у вас есть такое же, но только с 
 						перламутровыми пуговицами? <br>
@@ -93,9 +121,8 @@
 		</div>
 	</div>
 	<div class="b b-3">
-		<div class="b-block clearfix">
-			<img class="right" src="i/logo_mod.png">
-		</div>
+		<div class="b-back" data-stellar-ratio="0.6"></div>
+		<img class="right" src="i/logo_mod.png">
 	</div>
 	<div class="b b-4">
 		<div class="b-block">
@@ -132,7 +159,29 @@
 						<input type="text" placeholder="Название поля">
 						<input type="text" placeholder="Название поля">
 						<input type="text" placeholder="Название поля">	
-						<a class="button" href="#">Регистрация</a>		
+						<a class="button" href="#">
+							<svg width="334" height="53" class="b-gradient-butt" data-id="MyGradient">
+							    <defs>
+							        <linearGradient id="MyGradient" x1="0" y1="0" x2="100%" y2="0%">
+							        	<stop offset="0%" stop-color="rgba(255,116,111,1)" />
+							        	<stop offset="50%" class="b-center-point" stop-color="rgba(129,122,222,1)" />
+							        	<stop offset="100%" stop-color="rgba(0,218,221,1)" />
+							        </linearGradient>
+							        <linearGradient id="MyGradient1" x1="0" y1="0" x2="100%" y2="0%">
+							        	<stop offset="0%" stop-color="rgba(255,116,111,0.1)" />
+							        	<stop offset="50%" class="b-center-point" stop-color="rgba(129,122,222,0.1)" />
+							        	<stop offset="100%" stop-color="rgba(0,218,221,0.1)" />
+							        </linearGradient>
+							        <linearGradient id="MyGradient2" x1="0" y1="0" x2="100%" y2="0%">
+							        	<stop offset="0%" stop-color="rgba(255,116,111,0.2)" />
+							        	<stop offset="50%" class="b-center-point" stop-color="rgba(129,122,222,0.2)" />
+							        	<stop offset="100%" stop-color="rgba(0,218,221,0.2)" />
+							        </linearGradient>
+							    </defs>
+							  	<rect class="b-gradient-rect" x="2" y="2" rx="25" ry="25" width="330" stroke="url(#MyGradient)" fill="none" height="49" stroke-width="3"/>
+							  	<text class="b-gradient-text" x="86" y="67%" fill="url(#MyGradient)">Регистрация</text>
+							  </svg>
+						</a>		
 						<img class="arrow-2" src="i/arrow-2.png">	
 				</div>
 			</div>
@@ -148,26 +197,6 @@
 				до тех пор, пока могу быть
 				в этом мире женщиной.
 			</p>
-		</div>
-	</div>
-	<div class="b b-6">
-		<div class="b-block">
-			
-		</div>
-	</div>
-	<div class="b b-7">
-		<div class="b-block">
-			
-		</div>
-	</div>
-	<div class="b b-8">
-		<div class="b-block">
-			
-		</div>
-	</div>
-	<div class="b b-9">
-		<div class="b-block">
-			
 		</div>
 	</div>
 <div style="display:none;">

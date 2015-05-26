@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="keywords" content=''>
+	<meta name="description" content=''>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
+	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400italic,700italic,300,700,300italic,400&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/layout.css" type="text/css">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+
+	<meta name="viewport" content="width=1000">
+
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="js/jssor.js"></script>
+	<script type="text/javascript" src="js/jssor.slider.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/swipe.js"></script>
+	<script type="text/javascript" src="js/carousel.lite.js"></script>
+	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/KitProgress.js"></script>
+	<script type="text/javascript" src="js/KitAnimate.js"></script>
+	<script type="text/javascript" src="js/device.js"></script>
+	<script type="text/javascript" src="js/KitSend.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+	<div class="b b-0">
+		<svg width="310" height="53" id="b-gradient-butt">
+		    <defs>
+		        <linearGradient id="MyGradient" x1="0" y1="0" x2="100%" y2="0%">
+		        	<stop offset="0%" stop-color="#ff746f" />
+		        	<stop offset="50%" id="b-center-point" stop-color="#817ade" />
+		        	<stop offset="100%" stop-color="#00dadd" />
+		        </linearGradient>
+		      </defs>
+		  	<rect x="2" y="2" rx="18" ry="18" width="300" stroke="url(#MyGradient)" fill="none" height="49" stroke-width="3"/>
+		  	<text x="54" y="65%" fill="url(#MyGradient)" style="font-size: 20px;">Зарегистрироваться</text>
+		  </svg>
+	</div>
+</body>
+
+<script>
+	
+	$(document).ready(function(){
+		$("#b-gradient-butt").mousemove(function(e){
+            var mX = e.clientX-$(this).offset().left,
+                w = 300,
+                p = Math.round((90*(mX/w))+5);
+
+            $("#b-center-point").attr("offset",p+"%");
+        });
+	});
+
+</script>
+</html>

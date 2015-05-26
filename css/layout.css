@@ -125,6 +125,13 @@ input:-moz-placeholder {
 	.b-orange-butt:hover{
 		
 	}
+.button{
+	text-transform: uppercase;
+	font-size: 18px;
+	border-radius: 45px;
+	display: inline-block;		
+	padding: 12px 47px 11px 45px;
+}
 
 .b-0{
 	position: relative;
@@ -132,35 +139,43 @@ input:-moz-placeholder {
 	
 	.b-0 .logo{
   		padding: 5px 5px 3px 10px;
+  		margin-left: 10px;
 	}
 
 	.b-0 a{
-		border: 3px solid #76d9dd;
-		margin-top: 21px;	
-		color: #4d4d4d;
+		padding: 0px;
+		/*border: 3px solid #76d9dd;*/
+		margin-top: 19px;	
+		margin-right: 20px;
+		font-size: 18px;
+		/*color: #4d4d4d;*/
 	}
 
 	.b-0 a:hover{
-		border: 3px solid #a272b8;
-		color: #a272b8;
-	}
-
-	.button{
-		text-transform: uppercase;
-		font-size: 18px;
-		border-radius: 45px;
-		display: inline-block;		
-		padding: 12px 47px 11px 45px;
-
+		/*border: 3px solid #a272b8;
+		color: #a272b8;*/
 	}
 
 .b-1{
 	position: relative;
-	background: url('../i/back-1.jpg') 50%;
-	background-size: cover;
-	min-height: 770px;
+	height: 770px;
+	overflow: hidden;
 }
-
+	.b-1 .b-back{
+		background: url('../i/back-1-1.jpg') 50%;
+		background-size: cover;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 850px;
+	}
+	.b-1 .b-block{
+		position: absolute;
+		left: 50%;
+		margin-left: -545px;
+		top: 15px;
+	}
 	.b-1 .image{
 		position: relative;
 	}
@@ -245,7 +260,7 @@ input:-moz-placeholder {
 			width: 1192px;
 			height: 524px;
 			z-index: 30;
-  			top: 228px;
+  			top: 231px;
   			left: 316px;
 		}
 
@@ -392,15 +407,23 @@ input:-moz-placeholder {
 	}
 
 .b-3{
-	background: url('../i/back-2.jpg') 50%;
-	background-size: cover;
-	min-height: 500px;
-
+	height: 500px;
+	overflow: hidden;
 }
-
+	.b-3 .b-back{
+		background: url('../i/back-2-2.jpg') 40% 50%;
+		background-size: cover;
+		width: 100%;
+		height: 750px;
+		position: absolute;
+		left: 0px;
+		top: 20px;
+	}
 	.b-3 img{
-		margin-top: 374px;
-		margin-right: 64px;
+		position: absolute;
+		left: 50%;
+		margin-left: 384px;
+		top: 364px;
 	}
 
 .b-4{
@@ -408,7 +431,7 @@ input:-moz-placeholder {
 	background-size: cover;
 	position: relative;
 	min-height: 870px;
-
+	overflow: hidden;
 }
 
 	.b-4 .lines{
@@ -508,22 +531,12 @@ input:-moz-placeholder {
 			}
 
 			.b-4 .right a{
-				border: 3px solid #76cbdd;
-				margin-top: 10px;	
-				color: #76cbdd;
+				display: inline-block;
 				font-size: 23px;
 				margin-left: 7px;
 				margin-bottom: 32px;
-				padding-left: 80px;
-				padding-right: 85px;
 				margin-top: 16px;
-				padding-top: 9px;
-				padding-bottom: 8px;
-			}
-
-			.b-4 .right a:hover{
-				border: 3px solid #f0837a;
-				color: #f0837a;
+				padding: 0px;
 			}
 
 			.b-4 .right .arrow-2{
