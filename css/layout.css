@@ -364,6 +364,18 @@ input:-moz-placeholder {
 				margin-top: 25px;
 			}
 
+			.b-1 .context .reg-form input::-moz-placeholder
+			{
+				color: #2b2b2b;
+				text-align: center;
+			}
+
+		 	.b-1 .context .reg-form input::-webkit-input-placeholder
+		 	{
+		 		color: #2b2b2b;	
+		 		text-align: center;
+		 	}
+
 		.b-1 .context .arrow{
   			position: absolute;
   			right: 374px;
@@ -529,6 +541,19 @@ input:-moz-placeholder {
   				border: none;
   				margin-bottom: 20px;
 			}
+
+
+			.b-4 .right input::-moz-placeholder
+			{
+				color: #2b2b2b;
+				text-align: center;
+			}
+
+		 	.b-4 .right input::-webkit-input-placeholder
+		 	{
+		 		color: #2b2b2b;	
+		 		text-align: center;
+		 	}
 
 			.b-4 .right a{
 				display: inline-block;
