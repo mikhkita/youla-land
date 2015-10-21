@@ -2,13 +2,13 @@
 	require_once("phpmail.php");
 
 	
-	// $email_admin = "beatbox787@gmail.com";
-	$email_admin = "korostashlubov@gmail.com";
+	$email_admin = "beatbox787@gmail.com";
+	// $email_admin = "korostashlubov@gmail.com";
 
 	$from = "“YouLa Club”";
 	$email_from = "robot@youla.club";
 
-	$deafult = array("name"=>"Имя","phone"=>"Телефон", "email"=>"E-mail");
+	$deafult = array("name"=>"Имя","surname"=>"Фамилия","phone"=>"Телефон", "email"=>"E-mail");
 
 	$fields = array();
 
