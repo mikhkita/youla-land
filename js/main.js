@@ -24,7 +24,7 @@ $(document).ready(function(){
             myHeight = document.body.clientHeight;
         }
 
-        $(".b-3 .b-back").css("height",( myHeight > myWidth )?1000:750);
+        $(".b-3 .b-back").css("height",( myHeight > myWidth )?1000:900);
     }
     $(window).resize(resize);
     resize();

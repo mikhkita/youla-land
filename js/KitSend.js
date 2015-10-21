@@ -106,6 +106,7 @@ $(document).ready(function(){
 					var $form;
 					if( msg == "1" ){
 						$form = $thanks;
+						$form.find("a").attr("href",$form.find("a").attr("href")+$("input[name='name']").val()+"&phone="+$("input[name='phone']").val().split("+").join("%2B")+"&email="+$("input[name='email']").val());
 					}else{
 						$form = $("#b-popup-error");
 					}

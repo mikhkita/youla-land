@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta name="keywords" content=''>
-	<meta name="description" content=''>
+	<title>Первый семинар «Услышь себя и действуй!</title>
+	<meta name="keywords" content='Первый семинар «Услышь себя и действуй! You La – это женский клуб, площадка для новых знакомств, мастер-классов и лекций от профессионалов в своем деле. Клуб, где ты развиваешься и с пользой проводишь время в душевной кампании единомышленников. Присоединяйся!'>
+	<meta name="description" content='You La – это женский клуб, площадка для новых знакомств, мастер-классов и лекций от профессионалов в своем деле. Клуб, где ты развиваешься и с пользой проводишь время в душевной кампании единомышленников. Присоединяйся!'>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
@@ -17,7 +17,9 @@
 	<meta name="viewport" content="width=1000">
 
 	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/device.js"></script>
 	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<!--<script type="text/javascript" src="js/jquery.scroll.js"></script>-->
 	<script type="text/javascript" src="js/jssor.js"></script>
 	<script type="text/javascript" src="js/jssor.slider.js"></script>
 	<script type="text/javascript" src="js/TweenMax.min.js"></script>
@@ -29,7 +31,6 @@
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/KitProgress.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
-	<script type="text/javascript" src="js/device.js"></script>
 	<script type="text/javascript" src="js/KitSend.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 
@@ -40,7 +41,7 @@
 			<a href="index.html">
 				<img class="logo left" src="i/logo.png">
 			</a>	
-			<a class="button right" href="#">
+			<a class="button right b-go" data-block=".reg-head" data-offset="20" href="#">
 				<svg width="234" height="53" class="b-gradient-butt" data-id="MyGradientt">
 				    <defs>
 				        <linearGradient id="MyGradientt" x1="0" y1="0" x2="100%" y2="0%">
@@ -73,62 +74,94 @@
 			<div class="image">
 				<div class="heart" data-stellar-ratio="0.85">
 					<p>
-						А у вас есть такое же, но только с 
-						перламутровыми пуговицами? <br>
-						Я хочу все и сразу? <br>
-						<span>Девочки, это не про нас! <br>
-						YouLa знает, чего хочет! Берет и делает!</span>
+						Первый семинар «Услышь себя и действуй!» 25.10.2015 в CafePure.<br>Адрес: м. Автозаводская, Ленинская Слобода, 26<br>
+						<span>П.С.: В кафе есть детская комната с аниматором:)</span>
 					</p>	
 				</div>
 				<div class="blue-left clearfix">					
-					<h3 class="right">YouLa - это Ваш проект, женщины!
-					Присоединяйтесь, не откладывайте!</h3>
+					<h3 class="right">You La – это женский клуб, площадка для новых знакомств,<br>мастер-классов и лекций от профессионалов в своем деле. Клуб, где ты развиваешься и<br>с пользой проводишь время в душевной кампании единомышленников. Присоединяйся!</h3>
 				</div>
 				<div class="yellow-left"></div>
 				<div class="red-left"></div>
 				<div class="yellow-right"></div>
 				<div class="red-right"></div>
 				<div class="blue-right"></div>
+				<div class="red-bottom">
+					<h4>Первый семинар «Услышь себя и действуй!» 25.10.2015</h4>
+				</div>
 			</div>	
 			<div class="clearfix context">
 				<h2 class="right">С понедельника новая жизнь? 
 					Девочки, это не про нас!</h2>
 				<div class="right">
 					<div class="reg-head">
-						<h3>Зарегистрируйся сейчас</h3>
-						<p>и получи доступ к бесплатным материалам сообщества успешных женщин</p>
+						<h3>Зарегистрируйся прямо сейчас</h3>
+						<p>на первый семинар клуба YouLa «Услышь себя и действуй!»</p>
 					</div>
-					<div class="reg-form">
-						<input type="text" placeholder="Ваше имя">					
-						<input type="text" placeholder="Ваш телефон">
-						<input type="text" placeholder="Ваш email">
-						<a class="button" href="#">Регистрация</a>					
-					</div>
-					<img class="arrow righr" src="i/arrow-1.png">
+					<form action="kitsend.php" method="POST" id="b-form-10" data-block="#b-popup-2">
+						<div class="reg-form">
+							<input type="text" placeholder="Ваше имя" name="name" required>
+							<input type="text" placeholder="Ваша фамилия" name="1" required>
+							<input type="hidden" name="1-name" value="Фамилия"/>	
+							<input type="text" placeholder="Ваш телефон" name="phone" required>
+							<input type="text" placeholder="Ваш email" name="email" required>
+							<input type="hidden" name="subject" value="Регистрация"/>
+							<a class="button ajax" onclick="$('#b-form-10').submit(); return false;" href="#">Регистрация</a>					
+						</div>
+					</form>
+					<img class="arrow right" src="i/arrow-1.png">
 				</div>
 			</div>		
 		</div>
 	</div>
-	<div class="b b-2">
-		<div class="b-block">
-			<h2>Для кого этот проект? Почему Юла?</h2>
-			<p>Это проект, направленный на свободу и возможность 
-			   реализовывать себя во всех возможных сферах жизни. 
-			   Это проект о том, что нет слова «НЕТ!», «Не могу!», <br>
-			   « С понедельника новая жизнь!»
-			</p>
-			<h3>Новая жизнь - она уже сегодня с нами!</h3>
-		</div>
-	</div>
-	<div class="b b-3">
+	<!-- <div class="b b-3">
 		<div class="b-back" data-stellar-ratio="0.6"></div>
 		<img class="right" src="i/logo_mod.png">
-	</div>
+	</div> -->
 	<div class="b b-4">
 		<div class="b-block">
-			<img class="lines" src="i/pattern.png">
+			<!-- <img class="lines" src="i/pattern.png"> -->
 			<div class="content clearfix">
-				<div class="left">
+				<h2>Для кого этот семинар?</h2>
+				<div class="b-text">
+					<p>Наш семинар для каждой, кто хочет жить в гармонии с окружающим миром и собой. В современном мире ни один раз каждая из нас спрашивала себя : «Что я делаю на этой работе? Почему я хочу что-то изменить в своей жизни? Зачем я вышла за него замуж?» Ответить на эти вопросы невозможно, не услышав себя и не приняв себя такой, какая ты есть. Только после осознания, возможно перейти на следующий этап работы над собой. Хватит уже позволять глупым вопросам заселять свой мозг, просто начни что-то делать! Мы – женщины и в наших руках империи, просто раскройтесь!</p>
+				</div>
+				<h2>На семинаре ты узнаешь</h2>
+				<div class="b-text">
+					<ul class="b-list">
+						<li>Что такое предназначение.  Инструменты для поиска своего предназначения</li>
+						<li>Как из отрицательного мышления перейти в созидательное</li>
+						<li>От слов: Я  не могу. Не хочу. Боюсь. К словам я мог!  Хочу! Делаю!</li>
+						<li>Какого поведения мужчины ожидают от женщин?</li>
+						<li>Способы достижения успеха среди мужчин</li>
+						<li>Как везде успеть и остаться женщиной</li>				
+					</ul> 
+				</div>
+				<h2>Спикеры</h2>
+				<ul class="b-spiker">
+					<li class="clearfix">
+						<div class="left b-img-cont"><img src="i/b-4/3.jpg" alt=""></div>
+						<div class="right b-desc">
+							<h3>Тимур Гильманов</h3>
+							<p>Психолог- консультант. Популяризатор здорового образа жизни. Автор блога <a href='http://надожить.рф/' target="_blank">надожить.рф</a>. В своих работах помогает людям начать действовать изнутри себя, а значит быть в любви и Боге. Считает, что единственными учителями и авторитетами являемся мы сами, а не кто-то другой.</p>
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="left b-desc"><h3>Максим Красочкин</h3>
+							<p>С 2004-го года проводит тренинги по личностному росту, мотивации, взаимоотношениях мужчин и женщин. Исследовал техники влияния на сознание. Практик кундалини, айенгара, хатха йоге, йога-23, цигун. С 2013 года проводит тренинг Сатори, который по мнению Максима является самым эффективным в понимании своей природы. </p></div>
+						<div class="right b-img-cont">
+							<img src="i/b-4/1.jpg" alt="">
+						</div>
+					</li>
+					<li class="clearfix">
+						<div class="left b-img-cont"><img src="i/b-4/2.jpg" alt=""></div>
+						<div class="right b-desc">
+							<h3>Константин Дыкин</h3>
+							<p>Генеральный директор ООО «Норд». Автор методики антикризисного управления компаниями.” Более пятнадцати лет занимаюсь изучением теории и практики управления переменами, специализируюсь на изучении кризисов и переходов — из состояния в состояние, из пространства в пространство“</p>
+						</div>
+					</li>
+				</ul>
+				<!-- <div class="left">
 					<h2>Сделай первый шаг на встречу новой жизни!<br>
 						Сегодня! Сейчас!
 					</h2>
@@ -148,8 +181,8 @@
 							специалистов в своей области</li>
 						<li>будь собой и совершенствуйся! Каждый день!</li>					
 					</ul>
-				</div>
-				<div class="right">
+				</div> -->
+				<!-- <div class="right">
 					<h4>Заполни анкету и мы вышлем <br> первый совет от YouLa <br>
 						по твоей внешности!
 					</h4>
@@ -183,8 +216,33 @@
 							  </svg>
 						</a>		
 						<img class="arrow-2" src="i/arrow-2.png">	
-				</div>
+				</div> -->
 			</div>
+		</div>
+	</div>
+	<div class="b b-2">
+		<div class="b-block">
+			<div class="b-ttt">
+				<h2>Для кого этот клуб? Почему YouLa?</h2>
+				<p>Наш клуб направлен на свободу и возможность реализовать себя во всех возможных сферах жизни. Этот клуб о том, что нет слова «НЕТ!», «Не могу!», «С понедельника новая жизнь!»</p>
+				<h3>Новая жизнь - она уже сегодня с нами!</h3>
+			</div>
+			<ul class="b-spiker">
+				<li class="clearfix">
+					<div class="left b-img-cont"><img src="i/b-2/1.jpg" alt=""></div>
+					<div class="right b-desc">
+						<h3>Анна Виноградова</h3>
+						<p>«Люблю людей, движение, самопознание и развитие. Открыта ко всему, что дает нам жизнь и хочу делиться своим опытом. Прожив это лето на Дольменах, осознала, что путь к познанию себя – это совсем нелегкая дорожка. Заниматься поискам платья намного легче:) С нами вы узнаете, как освободиться от своих Хочу и просто начать что-то делать»</p>
+					</div>
+				</li>
+				<li class="clearfix">
+					<div class="left b-desc"><h3>Любовь Коросташ</h3>
+						<p>«Мой девиз по жизни: нет предела совершенству, ибо возможности мира неисчерпаемы.<br>В настоящий момент обучаюсь в Московском Университет Йоги, увлекаюсь психологией и саморазвитием. Моя цель: больше счастливых, гармоничных, женственных и спокойных женщин вокруг. Только через индивидуальный подход к каждой из нас, мы сможем сдвинуться к выполнению наших ожиданий.» </p></div>
+					<div class="right b-img-cont">
+						<img src="i/b-2/2.jpg" alt="">
+					</div>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<div class="b b-5">
@@ -200,27 +258,11 @@
 		</div>
 	</div>
 <div style="display:none;">
-	<div id="b-popup-1">
-			<div class="for_all b-popup" >
-				<h3>Оставьте заявку</h3>
-				<h4>и наши специалисты<br>свяжутся с Вами в ближайшее время</h4>
-				<form action="kitsend.php" method="POST" id="b-form-1" data-block="#b-popup-1">
-					<div class="b-popup-form">
-						<label for="name">Введите Ваше имя</label>
-						<input type="text" id="name" name="name" required/>
-						<label for="tel">Введите Ваш номер телефона</label>
-						<input type="text" id="tel" name="phone" required/>
-						<input type="hidden" name="subject" value="Заказ"/>
-						<input type="submit" class="ajax b-orange-butt" value="Заказать">
-					</div>
-				</form>
-			</div>
-		</div>
 		<div id="b-popup-2">
 			<div class="b-thanks b-popup">
-				<h3>Спасибо!</h3>
-				<h4>Ваша заявка успешно отправлена.<br/>Наш менеджер свяжется с Вами в течение часа.</h4>
-				<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
+				<h3>Спасибо за регистрацию!</h3>
+				<h4>Стоимость семинара 1000 руб</h4>
+				<a href="robo.php?name=">Оплатить</a>
 			</div>
 		</div>
 		<div id="b-popup-error">
